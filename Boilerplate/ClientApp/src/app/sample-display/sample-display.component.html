@@ -1,0 +1,17 @@
+<p *ngIf="!users"><em>Loading...</em></p>
+<div *ngFor="let user of users" class="card mb-3" id="users">
+  <div class="card-body">
+    <p class="card-image"><img class=" img-fluid" src="./default-user-icon.jpg" alt="card image"></p>
+    <h4 class="card-title">{{ user.userName }}</h4>
+    <p class="card-text">{{ user.email }}</p>
+    <p class="card-text">{{ user.phoneNumber }}</p>
+    <p class="card-text">Phone Number Confirmed: {{ user.phoneNumberConfirmed }}</p>
+    <p class="card-text">Email Confirmed: {{ user.emailConfirmed }}</p>
+    <p class="card-text">Two Factor Enabled: {{ user.twoFactorEnabled }}</p>
+    <div>
+      <a class="btn btn-primary btn-sm"><i class="fa fa-plus">Disable</i></a>
+      <a class="btn btn-primary btn-sm"><i class="fa fa-plus">Enable</i></a>
+      <a routerLink="{{user.id}}" class="btn btn-primary btn-sm"><i class="fa fa-plus">Update</i></a>
+    </div>
+  </div>
+</div>

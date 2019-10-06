@@ -1,0 +1,14 @@
+<div class="card activity-display" [ngClass]="{'activity-display-collapse': messagesHidden}">
+  <h5 class="card-header">Activity</h5>
+  <div class="display-messages" (click)="displayMessages()">|||</div>
+  <div class="card-body scrollable" [ngClass]="{'card-body hidden': messagesHidden}">
+    <div *ngFor="let message of messageService.messages" class="card mb-3" id="users">
+      <h5 class="card-header">{{message.message}} <h5>{{message.dateTime}}</h5>
+      </h5>
+    </div>
+    <div class="card detail_bar">
+      <input type="text" placeholder=". . .">
+      <button class="clear" (click)="clearMessages()">clear</button>
+    </div>
+  </div>
+</div>

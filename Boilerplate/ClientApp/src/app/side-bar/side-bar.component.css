@@ -1,0 +1,27 @@
+a{
+  cursor: pointer;
+}
+.col-4{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.list-group-item{
+  width: 200px;
+}
+.list-group{
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.row{
+  margin-top: 55px;
+      margin-left: 0px !important;
+}
+.row>div{
+  display: flex;
+  flex-direction: column;
+}
+.row>div>a{
+  color: white;
+  margin: 20px;
+}

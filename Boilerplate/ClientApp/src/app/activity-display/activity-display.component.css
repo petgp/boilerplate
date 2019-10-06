@@ -1,0 +1,72 @@
+#users{
+  border: none;
+  height: 37px;
+}
+#pets{
+  border:none;
+  height:37px;
+}
+#users>.card-header{
+  border-radius: 24px;
+  margin-top: 5px;
+  display: inline-flex;
+}
+#pets>.card-header{
+  border-radius: 24px;
+  margin-top: 5px;
+  display: inline-flex;
+}
+.card-header>h5{
+  position: absolute;
+  right: 0px;
+}
+.detail_bar{
+  display: inline-block;
+  position: fixed;
+  width: 99%;
+  left: 1ex;
+  height: 35px;
+  bottom: 8px;
+}
+.detail_bar>input{
+  width: 89%;
+  height: 34px;
+  padding-left: 19px;
+}
+.detail_bar>button{
+  float: right;
+    height: 34px;
+    width: 11%;
+}
+.activity-display{
+  position: fixed;
+  bottom: 41px;
+    width: 99%;
+    height: 250px;
+    left: 1ex;
+}
+.activity-display-collapse{
+  position: fixed;
+  bottom: 8px;
+    width: 99%;
+    height: 48px;
+    left: 1ex;
+}
+.scrollable{
+  overflow-y:auto;
+}
+.display-messages{
+  cursor: pointer;
+  user-select: none;
+  float: right;
+  position: absolute;
+  top: 5px;
+  right: 16px;
+  font-size: 26px;
+  -webkit-transform: rotateZ(90deg); /* Safari prior 9.0 */
+  transform: rotateZ(90deg); /* Standard syntax */
+}
+.hidden{
+  display: none !important;
+}
+
