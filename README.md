@@ -9,10 +9,6 @@ Hello! Welcome to Boilerplate! Built using -
 
 - Docker and Heroku for seamless deployment to the web
 
-Google Doc - https://docs.google.com/document/d/1yoFNobYin0q3PQMnUaSVyNf4-lu1bvkjSxwPWn-IWhU/edit?usp=sharing
-
-Database Schema - https://docs.google.com/drawings/d/1FMT98OL3nrnMpvyeR36b9uf3Xko-FznscwsahE8bfHU/edit?usp=sharing
-
 ### Installing on MacOS/Linux
 
 * `cd Boilerplate/ClientApp`
@@ -23,6 +19,6 @@ Database Schema - https://docs.google.com/drawings/d/1FMT98OL3nrnMpvyeR36b9uf3Xk
 * `cd Boilerplate`
 * `dotnet run`
 
-### Deploying changes to server:
+### Deploying changes:
 * `cd Boilerplate/ClientApp`
 * `npm run deploy`
